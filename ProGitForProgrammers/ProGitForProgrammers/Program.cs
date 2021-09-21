@@ -13,14 +13,8 @@ namespace ProGitForProgrammers
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            Console.WriteLine("Hello World!";
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
     }
 }
